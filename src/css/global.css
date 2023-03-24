@@ -1,0 +1,82 @@
+/* Import component-specific styles */
+@import "./header.css";
+/* @import "./sidebar.css"; */
+@import "./content.css"; 
+@import "./footer.css"; 
+@import "./employer.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* global.css */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Open Sans', 'sans-serif'; */
+  background-color: #fff;
+  color: #444;
+  width: 100%;
+}
+
+h1,
+p {
+  margin: 0 0 1em 0;
+}
+
+/* make a grid */
+.wrapper {
+  max-width: 100%; /* change to 100% to take up the full width of the screen */
+  margin: 0 auto;
+  /* display: grid; */
+  grid-template-columns: 25% 75%;
+  grid-gap: 10px;
+}
+  
+.wrapper > * {
+  color: #062056;
+  border-radius: 5px;
+  /* padding: 20px; */
+  font-size: 125%;
+  padding: 1%;
+}
+
+/* adjust grid-column property for header and footer */
+.header, .footer {
+  grid-column: 1 / -1;
+}
+
+/* adjust grid-column property for sidebar */
+/* .sidebar {
+  grid-column: 1 / span 1; /* change to start at grid column 1 */
+/* } */ */
+
+/* adjust grid-column property for content */
+.content {
+  grid-column: 2 / -1; /* change to start at grid column 2 and span until the end of the grid */
+}
+.logo-text {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font: normal 36px 'Open Sans', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .logo-text span {
+    color: #3498db;
+  }
+  
+  .logo-cen {
+    /* color: #f8f5fa; */
+    color: #DB2B65;
+  }
+  
+  .logo-tido {
+    color: #20b2aa;
+  }

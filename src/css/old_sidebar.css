@@ -1,0 +1,10 @@
+
+.sidebar {
+  grid-column: 1 / span 1; /* change to start at grid column 1 and span for only 1 grid column */
+  background-color: #99a099;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  width: 100%; /* set the width to 100% to take up the full width of the grid column */
+}

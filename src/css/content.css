@@ -1,0 +1,15 @@
+content {
+  grid-column: 4 / span 9;
+  background-color: #1e4863;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  height: 100%; /* add this line */
+}
+
+  main {
+    background-color: white;
+    color: black;
+  }
+   

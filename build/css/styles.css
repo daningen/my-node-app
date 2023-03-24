@@ -1,0 +1,17 @@
+.header {
+    background-color: lightblue;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .content {
+    background-color: yellow;
+  }
+  
