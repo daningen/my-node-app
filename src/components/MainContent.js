@@ -2,10 +2,10 @@ import React from 'react';
 import '../css/content.css';
 
 
-function Content() {
+function MainContent() {
   return (
     <main className="content">
-      <h2>Content</h2>
+      <h2>MainContent</h2>
       <p>Centido AB erbjuder konsulttjänster som kombinerar expertis inom IT och affärsverksamhet i olika verksamheter med extra djupt kunnande inom försäkringsbranschen.
          Vi hjälper våra klienter att möta dagens utmaningar genom att erbjuda applikationsutveckling med stöd för agil 
          utveckling utan att använda dessa specifika värdeord. Vi har en bred och djup kunskap inom applikationsutveckling, vilket gör att vi kan erbjuda skräddarsydda lösningar som möter våra klienters unika behov. Genom att kombinera vår tekniska expertis med vår förståelse för försäkringsbranschen 
@@ -18,4 +18,4 @@ function Content() {
     </main>
   );
 }
-export default Content;
+export default MainContent;

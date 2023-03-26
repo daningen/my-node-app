@@ -2,37 +2,68 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/header.css';
 import About from './About';
-import Content from './Content';
+import Content from './MainContent';
 import Employer from './Employer';
+import Reference from './Reference';
 
-function Header() {
-  const [currentPage, setCurrentPage] = useState('content');
+function Header(props) {
+  const [contentSelected, setContentSelected] = useState(true);
+  const [aboutSelected, setAboutSelected] = useState(false);
+  const [referenceSelected, setReferenceSelected] = useState(false);
+  const [employerSelected, setEmployerSelected] = useState(false);
 
-  const handleLinkClick = (page) => {
-    setCurrentPage(page);
+  const handleContentClick = () => {
+    setContentSelected(true);
+    setAboutSelected(false);
+    setReferenceSelected(false);
+    props.handlePageChange('content');
+  };
+
+  const handleAboutClick = () => {
+    setContentSelected(false);
+    setAboutSelected(true);
+    setReferenceSelected(false);
+    props.handlePageChange('about');
+  };
+
+  const handleReferenceClick = () => {
+    setContentSelected(false);
+    setAboutSelected(false);
+    setReferenceSelected(true);
+    props.handlePageChange('reference');
+  };
+
+  const handleEmployerClick = () => {
+    setContentSelected(false);
+    setAboutSelected(false);
+    setReferenceSelected(false);
+    setEmployerSelected(true);
+    props.handlePageChange('employer');
   };
 
   return (
-    <div className="wrapper">
-      <nav>
-        <ul>
-          <li><Link to="/" onClick={() => handleLinkClick('content')}>Home</Link></li>
-          <li><Link to="/about" onClick={() => handleLinkClick('about')}>About Us</Link></li>
-          <li><Link to="/expertise" onClick={() => handleLinkClick('expertise')}>Area of Expertise</Link></li>
-          <li><Link to="/employer" onClick={() => handleLinkClick('employer')}>Employer</Link></li>
-        </ul>
-      </nav>
-
-      <h3 className="logo">
+    <header className="border">
+  <nav>
+    <Link to="/" className="logo">
+      <h3>
         <span className="logo-cen">Cen</span>
         <span className="logo-tido">tido</span>
       </h3>
+    </Link>
+    <ul style={{ marginLeft: 'auto' }}>
+      <li><Link to="/" onClick={handleContentClick} className={contentSelected ? "selected" : ""}>Content</Link></li>
+      <li><Link to="/about" onClick={handleAboutClick} className={aboutSelected ? "selected" : ""}>About</Link></li>
+      <li><Link to="/employer" onClick={handleEmployerClick} className={employerSelected ? "selected" : ""}>Employer</Link></li>
+      <li><Link to="/references" onClick={handleReferenceClick} className={referenceSelected ? "selected" : ""}>References</Link></li>
+    </ul>
+  </nav>
+  <div class="border">
+</div>
+</header>
 
-      {currentPage === 'about' && <About />}
-      {currentPage === 'expertise' && <Content />}
-      {currentPage === 'employer' && <Employer />}
-    </div>
   );
+  
+  
 }
 
 export default Header;
