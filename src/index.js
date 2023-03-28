@@ -1,8 +1,8 @@
-// import React from 'react';
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import './css/global.css';
+// import './css/global.css';
 import App from './App';
 
 ReactDOM.render(
