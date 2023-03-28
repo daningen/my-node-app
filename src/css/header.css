@@ -13,7 +13,7 @@
 }
 
 div.border {
-  border-bottom: 2px solid #f10f9e;
+  border-bottom: 2px solid #d9d3d5;
 }
 
 .header h3 {
@@ -39,10 +39,12 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #DB2B65;
+  /* color: #DB2B65; */
+  color: #d9d3d5;
   font-size: 1.2rem;
 }
 
 nav a:hover {
-  color: #23c723;
+  /* color: #23c723; */
+  color: #2378c7;
 }

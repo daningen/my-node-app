@@ -16,12 +16,14 @@ function Reference() {
     <main className="reference">
       <section className="reference-intro">
         <div className="reference-intro-content">
-          <h2>References</h2>
+          <h2>Referenser</h2>
           <p>Tillammans med Centido kan organisationer bygga en stabil grund för sin verksamhet genom att dra nytta av vår tekniska expertis och vår förståelse för branschen. Kontakta oss idag för att se hur vi kan hjälpa just din organisation att möta sina utmaningar och uppnå sina mål.</p>
+        
         </div>
       </section>
       <section className="reference-logos">
         <div className="logo-container">
+          <p></p>
           <img src={FolksamLogo} alt="Folksam Logo" className="reference-image" />
           <img src={GjensidigeLogo} alt="Gjensidige Logo" className="reference-image" />
           <img src={LFLogo} alt="LF Logo" className="reference-image" />

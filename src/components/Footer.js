@@ -1,11 +1,20 @@
 import React from 'react';
 import '../css/footer.css';
+import { Link } from 'react-router-dom';
+import logo from '../images/centido/centido-logo-2.jpg';
 
 function Footer() {
   return (
+    
     <footer class="footer-distributed">
+      <div class="border"></div>
+      <p></p>
       <div class="footer-left">
-        <h3>Cen<span>tido</span></h3>
+      
+      <Link to="/" className="logo">
+  <img src={logo} alt="Centido Logo 2" style={{ maxWidth: '100px' }} />
+</Link>
+
         <p class="footer-links">
           <a href="#" class="link-1">Home</a>
           <a href="#">Blog</a>
@@ -32,8 +41,8 @@ function Footer() {
       </div>
       <div class="footer-right">
         <p class="footer-company-about">
-          <span>Om företaget</span>
-          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+          <span>Om Centido</span>
+          Vi erbjuder omfattande försäkringslösningar skräddarsydda för att möta våra kunders unika behov.
         </p>
         <div class="footer-icons">
           <a href="#"><i class="fa fa-facebook"></i></a>

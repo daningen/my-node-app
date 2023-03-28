@@ -5,6 +5,7 @@ import About from './About';
 import Content from './MainContent';
 import Employer from './Employer';
 import Reference from './Reference';
+import logo from '../images/centido/centido-logo-2.jpg';
 
 function Header(props) {
   const [contentSelected, setContentSelected] = useState(true);
@@ -43,23 +44,27 @@ function Header(props) {
 
   return (
     <header className="border">
-  <nav>
-    <Link to="/" className="logo">
-      <h3>
-        <span className="logo-cen">Cen</span>
-        <span className="logo-tido">tido</span>
-      </h3>
-    </Link>
-    <ul style={{ marginLeft: 'auto' }}>
-      <li><Link to="/" onClick={handleContentClick} className={contentSelected ? "selected" : ""}>Content</Link></li>
-      <li><Link to="/about" onClick={handleAboutClick} className={aboutSelected ? "selected" : ""}>About</Link></li>
-      <li><Link to="/employer" onClick={handleEmployerClick} className={employerSelected ? "selected" : ""}>Employer</Link></li>
-      <li><Link to="/references" onClick={handleReferenceClick} className={referenceSelected ? "selected" : ""}>References</Link></li>
-    </ul>
-  </nav>
-  <div class="border">
-</div>
-</header>
+    <nav>
+      <Link to="/" className="logo">
+        <h3>
+          {/* <span className="logo-cen">Cen</span>
+          <span className="logo-tido">tido</span> */}
+          <img src={logo} alt="Centido Logo 2" style={{ maxWidth: '100px' }} />
+        </h3>
+         
+        {/* <img src="../images/centido/centido-logo-2.jpg" alt="Centido Logo 2" style={{ maxWidth: '50px' }} /> */}
+      </Link>
+      <ul style={{ marginLeft: 'auto' }}>
+        <li><Link to="/" onClick={handleContentClick} className={contentSelected ? "selected" : ""}>Content</Link></li>
+        <li><Link to="/about" onClick={handleAboutClick} className={aboutSelected ? "selected" : ""}>About</Link></li>
+        <li><Link to="/employer" onClick={handleEmployerClick} className={employerSelected ? "selected" : ""}>Employer</Link></li>
+        <li><Link to="/references" onClick={handleReferenceClick} className={referenceSelected ? "selected" : ""}>References</Link></li>
+      </ul>
+    </nav>
+    <div class="border">
+  </div>
+  </header>
+  
 
   );
   

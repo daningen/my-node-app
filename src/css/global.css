@@ -4,7 +4,28 @@
 @import "./content.css"; 
 @import "./footer.css"; 
 @import "./employer.css"; 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import "./reference.css"; 
+
+
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700');
+
+/* * {
+  font-family: Open Sans;
+} */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Inter', sans-serif;
+}
 
 /* global.css */
 
@@ -18,7 +39,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  /* font-family: 'Open Sans', 'sans-serif'; */
+  /* font-family: 'Inter', sans-serif; Set Inter font as default with fallback to generic sans-serif font */
   background-color: #fff;
   color: #444;
   width: 100%;
@@ -60,23 +81,22 @@ p {
 .content {
   grid-column: 2 / -1; /* change to start at grid column 2 and span until the end of the grid */
 }
+
 .logo-text {
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font: normal 36px 'Open Sans', cursive;
+    font-family: 'Inter', sans-serif; /* Set Inter font for logo text */
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
-  }
-  
-  .logo-text span {
+}
+
+.logo-text span {
     color: #3498db;
-  }
-  
-  .logo-cen {
-    /* color: #f8f5fa; */
+}
+
+.logo-cen {
     color: #DB2B65;
-  }
-  
-  .logo-tido {
+}
+
+.logo-tido {
     color: #20b2aa;
-  }
+}
