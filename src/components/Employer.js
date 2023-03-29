@@ -6,6 +6,8 @@ import Image3 from '../images/employer3.jpg';
 import Image4 from '../images/employer4.jpg';
 import Image5 from '../images/employer5.jpg';
 import Image6 from '../images/employer6.jpg';
+import Image7 from '../images/employer7.jpg';
+import Image8 from '../images/employer8.jpg';
 import EmployerData from '../data/EmployerData';
 
 function Employer() {
@@ -19,6 +21,8 @@ function Employer() {
     { id: 4, src: Image4 },
     { id: 5, src: Image5 },
     { id: 6, src: Image6 },
+    { id: 7, src: Image7 },
+    { id: 8, src: Image8 }
   ];
 
   const handleImageClick = (id) => {

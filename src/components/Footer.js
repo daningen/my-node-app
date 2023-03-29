@@ -42,7 +42,7 @@ function Footer() {
       <div class="footer-right">
         <p class="footer-company-about">
           <span>Om Centido</span>
-          Vi erbjuder omfattande försäkringslösningar skräddarsydda för att möta våra kunders unika behov.
+          <span> Vi erbjuder omfattande försäkringslösningar skräddarsydda för att möta våra kunders unika behov.</span>
         </p>
         <div class="footer-icons">
           <a href="#"><i class="fa fa-facebook"></i></a>

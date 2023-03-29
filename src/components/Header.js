@@ -8,12 +8,14 @@ function Header(props) {
   const [employerSelected, setEmployerSelected] = useState(false);
   const [referenceSelected, setReferenceSelected] = useState(false);
   const [usSelected, setUsSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(false);
 
   const handleContentClick = () => {
     setContentSelected(true);
     setEmployerSelected(false);
     setReferenceSelected(false);
     setUsSelected(false);
+    setAboutSelected(false);
     props.handlePageChange('content');
   };
 
@@ -22,6 +24,7 @@ function Header(props) {
     setEmployerSelected(true);
     setReferenceSelected(false);
     setUsSelected(false);
+    setAboutSelected(false);
     props.handlePageChange('employer');
   };
 
@@ -30,6 +33,7 @@ function Header(props) {
     setEmployerSelected(false);
     setReferenceSelected(true);
     setUsSelected(false);
+    setAboutSelected(false);
     props.handlePageChange('reference');
   };
 
@@ -38,7 +42,17 @@ function Header(props) {
     setEmployerSelected(false);
     setReferenceSelected(false);
     setUsSelected(true);
+    setAboutSelected(false);
     props.handlePageChange('us');
+  };
+
+  const handleAboutClick = () => {
+    setContentSelected(false);
+    setEmployerSelected(false);
+    setReferenceSelected(false);
+    setUsSelected(false);
+    setAboutSelected(true);
+    props.handlePageChange('about');
   };
 
   return (
@@ -54,6 +68,7 @@ function Header(props) {
           <li><Link to="/us" onClick={handleUsClick} className={usSelected ? "selected" : ""}>Us</Link></li>
           <li><Link to="/employer" onClick={handleEmployerClick} className={employerSelected ? "selected" : ""}>Employer</Link></li>
           <li><Link to="/references" onClick={handleReferenceClick} className={referenceSelected ? "selected" : ""}>References</Link></li>
+          <li><Link to="/about" onClick={handleAboutClick} className={aboutSelected ? "selected" : ""}>About</Link></li>
         </ul>
       </nav>
       <div className="border"></div>
