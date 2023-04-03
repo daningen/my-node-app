@@ -21,7 +21,7 @@ function Footer() {
           <a href="#">Pris</a>
           <a href="#">Om oss</a>
           <a href="#">Frågor</a>
-          <a href="mailto:info@myapp.com">Contact</a> {/* updated link */}
+          <a href="#">Kontakt</a>
         </p>
         <p class="footer-company-name">Centido &copy; 2023</p>
       </div>
@@ -36,7 +36,7 @@ function Footer() {
         </div>
         <div>
           <i class="fa fa-envelope"></i>
-          <p><a href="mailto:niklas.eklund@centido.com">niklas.eklund@centido.com</a></p>
+          <p><a href="mailto:info@myapp.com">niklas.eklund@centido.com</a></p>
         </div>
       </div>
       <div class="footer-right">

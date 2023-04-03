@@ -55,6 +55,10 @@ function Header(props) {
     props.handlePageChange('about');
   };
 
+  const handleStartClick = () => {
+    props.handlePageChange('start');
+  };
+
   return (
     <header className="border">
       <nav>
@@ -69,6 +73,7 @@ function Header(props) {
           <li><Link to="/employer" onClick={handleEmployerClick} className={employerSelected ? "selected" : ""}>Employer</Link></li>
           <li><Link to="/references" onClick={handleReferenceClick} className={referenceSelected ? "selected" : ""}>References</Link></li>
           <li><Link to="/about" onClick={handleAboutClick} className={aboutSelected ? "selected" : ""}>About</Link></li>
+          <li><a onClick={handleStartClick}>Start</a></li>
         </ul>
       </nav>
       <div className="border"></div>

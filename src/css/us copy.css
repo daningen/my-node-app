@@ -1,0 +1,53 @@
+.us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.us-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.us-image {
+  position: relative;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.us-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.us-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.us-card {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.us-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.us-description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}

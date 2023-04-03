@@ -16,7 +16,7 @@
 
 .us-image img {
   width: 100%;
-  height: auto;
+  height: 700px;
   object-fit: cover;
 }
 
@@ -37,4 +37,10 @@
 .us-description {
   font-size: 1rem;
   text-align: center;
+}
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .us-image img {
+    height: auto;
+  }
 }
