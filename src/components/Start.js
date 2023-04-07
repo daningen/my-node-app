@@ -27,7 +27,7 @@ const Start = () => {
             <li>Building trust</li>
             <li>Robust solutions</li>
           </ul>
-          <button className="contact-btn">Contact</button>
+          {/* <button className="contact-btn">Contact</button> */}
         </div>
       </div>
       <div className="item3">
@@ -37,41 +37,45 @@ const Start = () => {
         {/* <h2>Hello</h2> */}
       </div>
       <div className="item4">
-        <h1>Something about Centido</h1>
-        <h2>Something about Centido</h2>
-        <h3>Something about Centido</h3>
+        <h1>Our philosophy</h1>
+        
+        <p>At Centido, we pride ourselves on our specialized expertise. Our team's high level 
+            of competence enables us to confidently run, develop, and manage projects where we know we can add real value and contribute to their success. We have strict recruitment standards, which means we grow slowly but maintain a high level of quality.
+            Unlike many companies in our industry, we intentionally set 
+            lower growth, profit, and occupancy rate goals, allowing us to invest more time in the training and development of our consultants. 
+            We prioritize the benefits to our customers, and this focus drives everything we do.</p>
       </div>
       <div className="item5">
         <div className="card card1">
         <img src={analyze} alt="analyze" />
           <h4>We listen</h4>
-          <p>Working closely with our clients to gain a deep understanding business and industry, 
-            and then apply knowledge and skills to deliver impactful results.</p>
-            <button className="contact-btn">Read more</button>
+          <p>Listening is the cornerstone of great relations. By truly understanding your needs and requirements, 
+            we deliver impactful solutions that help you achieve your goals. We bring insights that add value to your business.</p>
+            {/* <button className="contact-btn">Read more</button> */}
 
-            {/* By actively listening to our clients, we gain a deeper understanding of their needs and challenges, 
-            which allows us to provide tailored solutions that truly meet their unique requirements. */}
           
         </div>
         <div className="card card2">
         <img src={act} alt="act" />
-          <h4>Expertise</h4>
-          <p>Working closely with our clients to gain a deep understanding business and industry, 
-            and then apply knowledge and skills to deliver impactful results.</p>
-            <button className="contact-btn">Read more</button>
+          <h4>We are experts</h4>
+          <p>At the core of our expertise lies a deep understanding of our clients' business and industry. 
+            Our strength lies in providing insights and adding value by applying our knowledge and skills to deliver impactful results.</p>
+          <p></p>
+          {/* <button className="contact-btn">Read more</button> */}
 
 
-            {/* <p>Our expertise lies in understanding today's client challenges and providing 
-            tailored solutions that meet their needs. </p> */}
+            
          
         </div>
        
         <div className="card card3">
         <img src={listen} alt="listen" />
-          <h4>Industry</h4>
-          <p>Working closely with our clients to gain a deep understanding business and industry, 
-            and then apply knowledge and skills to deliver impactful results.</p>
-            <button className="contact-btn">Read more</button>
+          <h4>We know your Industry</h4>
+          <p>We specialize in gaining deep insights into our clients' businesses and industries. 
+            Our expertise lies in adding value and delivering impactful results through the application of our knowledge and skills..</p>
+            <p></p>
+           
+            {/* <button className="contact-btn">Read more</button> */}
         </div>
       </div>
     </div>

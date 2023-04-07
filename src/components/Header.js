@@ -69,7 +69,7 @@ function Header(props) {
         </Link>
         <ul style={{ marginLeft: 'auto' }}>
           <li><Link to="/" onClick={handleContentClick} className={contentSelected ? "selected" : ""}>Content</Link></li>
-          <li><Link to="/us" onClick={handleUsClick} className={usSelected ? "selected" : ""}>Us</Link></li>
+          {/* <li><Link to="/us" onClick={handleUsClick} className={usSelected ? "selected" : ""}>Us</Link></li> */}
           <li><Link to="/employer" onClick={handleEmployerClick} className={employerSelected ? "selected" : ""}>Employer</Link></li>
           <li><Link to="/references" onClick={handleReferenceClick} className={referenceSelected ? "selected" : ""}>References</Link></li>
           <li><Link to="/about" onClick={handleAboutClick} className={aboutSelected ? "selected" : ""}>About</Link></li>

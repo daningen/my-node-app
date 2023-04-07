@@ -10,7 +10,7 @@ import Us from "./components/Us";
 import Start from "./components/Start";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('content');
+  const [currentPage, setCurrentPage] = useState('start');
   
 
   const handlePageChange = (page) => {
