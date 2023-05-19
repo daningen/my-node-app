@@ -19,7 +19,7 @@ const employers = [
     },
     {
         id: 3,
-        name: 'Andreas Eklund',
+        name: 'Marcus',
         description: 'Andreas is a skilled C# developer who also frequently takes on the role of Scrum Master. He has a strong technical background and is passionate about Agile methodologies, leading teams to success through effective collaboration and communication.'
       },
       {

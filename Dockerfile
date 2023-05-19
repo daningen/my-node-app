@@ -1,5 +1,9 @@
 # Base image
-FROM node:14-alpine
+FROM node:16-alpine 
+# FROM --platform=linux/amd64 node:16-alpine 
+# FROM --platform=$BUILDPLATFORM node:16-alpine 
+
+# RUN echo "I am running on $BUILDPLATFORM"
 
 # Create app directory
 WORKDIR /app

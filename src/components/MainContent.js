@@ -13,18 +13,22 @@ function MainContent() {
   return (
     <main className="content">
       <div className="offer">
-        <h2>Vi erbjuder</h2>
-        <p>Centido AB erbjuder konsulttjänster som kombinerar expertis inom IT och affärsverksamhet i olika verksamheter med extra 
-          djupt kunnande inom försäkringsbranschen. Vi hjälper våra klienter att möta dagens utmaningar genom att erbjuda 
-          applikationsutveckling med stöd för agil utveckling utan att använda dessa specifika värdeord. 
-          Vi har en bred och djup kunskap inom applikationsutveckling, vilket gör att vi kan erbjuda skräddarsydda lösningar 
-          som möter våra klienters unika behov. </p>
+        <h2>We offer</h2>
+        <p>Centido AB offers consulting services that combine expertise in IT and business operations across various industries
+           with deep knowledge in the insurance sector. We help our clients tackle today's challenges by providing application
+          development with agile support. 
+          With extensive knowledge in application development, we offer tailored solutions that meet our clients' unique needs. </p>
         
-        <p>Genom att kombinera vår tekniska expertis med vår förståelse för 
-          försäkringsbranschen kan vi hjälpa organisationer att effektivisera sina processer och stärka sin verksamhet.
-          Vi förstår vikten av att vara flexibla och anpassningsbara för att möta dagens snabbt föränderliga marknad. 
-          Därför stödjer vi agil utveckling för att hjälpa våra klienter att vara redo att möta framtida utmaningar och 
-          möjligheter.</p>
+        <p>By combining our technical expertise with an understanding of the insurance industry, we can assist organizations 
+          in streamlining their processes and strengthening their operations. We recognize the importance of being 
+          flexible and adaptable to meet the rapidly changing market demands. Therefore, we support agile development
+           to help our clients be prepared for future challenges and opportunities.</p>
+
+        <p>With confidence, trust, and a focus on selling, we can say:
+        At Centido AB, we provide exceptional consulting services that blend IT and business expertise across various 
+        industries. With our deep knowledge in the insurance sector, we are uniquely positioned to help our clients overcome challenges and achieve success. Our tailored application development solutions are designed to meet specific needs, ensuring efficiency and effectiveness. By leveraging our technical expertise and understanding of the insurance industry, we help organizations streamline processes, strengthen operations, and embrace the opportunities of tomorrow. 
+        Trust us to deliver innovative solutions and be your reliable partner on the journey to success.</p>
+
       </div>
 
       <div className="image-container">

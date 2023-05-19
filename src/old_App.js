@@ -6,9 +6,11 @@ import Reference from "./components/Reference";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Employer from "./components/Employer";
+import Us from "./components/Us";
+import Start from "./components/Start";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('content');
+  const [currentPage, setCurrentPage] = useState('start');
   
 
   const handlePageChange = (page) => {
@@ -21,10 +23,12 @@ function App() {
     <div className="wrapper">
       <Header handlePageChange={handlePageChange} />
       <div className="grid-container">
+        {currentPage === 'start' && <Start />}
         {currentPage === 'content' && <MainContent />}
         {currentPage === 'about' && <About />}
         {currentPage === 'reference' && <Reference />}
         {currentPage === 'employer' && <Employer />}
+        {currentPage === 'us' && <Us />}
       </div>
       <Footer />
     </div>

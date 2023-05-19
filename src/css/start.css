@@ -25,8 +25,16 @@
 }
 
 .item3 {
-  background-image: url('../images/centido/sheet.png');
-  background-size: 80%;
+  /* background-image: url('../images/centido/sheet.png'); */
+  /* background-image: url('../images/centido/ben3.png'); */
+  /* background-image: url('../images/centido/sales.png'); */
+   /* background-image: url('../images/centido/start-Niklas.png'); */
+   background-image: url('../images/centido/start-face.png');
+  /* background-image: url('../images/centido/analyze-homepage-768x531-Dan.png'); */
+  /* background-image: url('../images/centido/sales2.png'); */
+  /* background-size: 70%; */
+  background-size: contain; /* Adjust the background size to "contain" */
+  /* background-size: cover; */
   background-repeat: no-repeat;
   grid-area: main;
   grid-row: 2 / span 1;
@@ -50,13 +58,16 @@
 
 .card {
   width: 25%;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: #66b1b7;
+  opacity: 0.85;
   text-align: center;
   padding: 25px;
   flex: 0.3;
   margin-right: 30px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  color:whitesmoke;
 }
 
 .card p {
@@ -91,15 +102,20 @@
 }
 
 .card1 {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-color: a#66b1b7;
+  ;
+
 }
 
 .card2 {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  /* background-color: a#f2b707; */
 }
 
 .card3 {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  /* background-color: a#bf9175; */
 }
 
 .koglogo {

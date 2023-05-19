@@ -4,7 +4,8 @@ import pens from '../images/centido/pens.png';
 import ben from '../images/centido/ben-iwara.jpg';
 
 
-import analyze from '../images/centido/analyze-homepage-768x531.png';
+// import analyze from '../images/centido/analyze-homepage-768x531.png';
+import analyze from '../images/centido/analyze-homepage-768x531-Dan.png';
 import act from '../images/centido/act-homepage-768x531.png';
 import listen from '../images/centido/Listen-homepage-768x531.png';
 
@@ -39,7 +40,7 @@ const Start = () => {
       <div className="item4">
         <h1>Our philosophy</h1>
         
-        <p>At Centido, we pride ourselves on our specialized expertise. Our team's high level 
+        <p>At Centido, we pride ourselves on our specialized expertise. Our team's high level
             of competence enables us to confidently run, develop, and manage projects where we know we can add real value and contribute to their success. We have strict recruitment standards, which means we grow slowly but maintain a high level of quality.
             Unlike many companies in our industry, we intentionally set 
             lower growth, profit, and occupancy rate goals, allowing us to invest more time in the training and development of our consultants. 

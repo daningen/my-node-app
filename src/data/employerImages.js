@@ -1,11 +1,11 @@
-import employer1 from '../images/employer/employer1.jpg';
-import employer2 from '../images/employer/employer2.jpg';
-import employer3 from '../images/employer/employer3.jpg';
-import employer4 from '../images/employer/employer4.jpg';
-import employer5 from '../images/employer/employer5.jpg';
-import employer6 from '../images/employer/employer6.jpg';
-import employer7 from '../images/employer/employer7.jpg';
-import employer8 from '../images/employer/employer8.jpg';
+import employer1 from '../images/employer/employer1.png';
+import employer2 from '../images/employer/employer2.png';
+import employer3 from '../images/employer/employer3.png';
+import employer4 from '../images/employer/employer4.png';
+import employer5 from '../images/employer/employer5.png';
+import employer6 from '../images/employer/employer6.png';
+import employer7 from '../images/employer/employer7.png';
+import employer8 from '../images/employer/employer8.png';
 // import more images as needed
 
 const employerImages = {

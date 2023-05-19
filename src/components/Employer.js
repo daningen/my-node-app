@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import '../css/employer.css';
-import Image1 from '../images/employer1.jpg';
-import Image2 from '../images/employer2.jpg';
-import Image3 from '../images/employer3.jpg';
-import Image4 from '../images/employer4.jpg';
-import Image5 from '../images/employer5.jpg';
-import Image6 from '../images/employer6.jpg';
-import Image7 from '../images/employer7.jpg';
-import Image8 from '../images/employer8.jpg';
+import Image1 from '../images/employer1.png';
+import Image2 from '../images/employer2.png';
+import Image3 from '../images/employer3.png';
+import Image4 from '../images/employer4.png';
+import Image5 from '../images/employer5.png';
+import Image6 from '../images/employer6.png';
+import Image7 from '../images/employer7.png';
+import Image8 from '../images/employer8.png';
 import EmployerData from '../data/EmployerData';
 
 function Employer() {
